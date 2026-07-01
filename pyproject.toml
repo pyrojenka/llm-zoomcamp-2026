@@ -9,5 +9,15 @@ dependencies = [
     "gitsource>=0.0.5",
     "google-adk>=2.3.0",
     "minsearch>=0.1.1",
+    "numpy>=2.5.0",
+    "onnxruntime>=1.27.0",
+    "tokenizers>=0.23.1",
     "toyaikit>=0.0.11",
+    "tqdm>=4.68.3",
+]
+
+[dependency-groups]
+dev = [
+    "huggingface-hub>=1.21.0",
+    "jupyter>=1.1.1",
 ]
