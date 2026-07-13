@@ -3,7 +3,7 @@ name = "llm-zoomcamp-2026"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.12,<3.14"
 dependencies = [
     "dotenv>=0.9.9",
     "gitsource>=0.0.5",
@@ -11,6 +11,10 @@ dependencies = [
     "minsearch>=0.1.1",
     "numpy>=2.5.0",
     "onnxruntime>=1.27.0",
+    "pandas>=3.0.3",
+    "pydantic>=2.13.4",
+    "python-dotenv>=1.2.2",
+    "scikit-learn>=1.9.0",
     "tokenizers>=0.23.1",
     "toyaikit>=0.0.11",
     "tqdm>=4.68.3",
